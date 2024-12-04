@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: step do job1
         run: echo Hello, world! Build.
-   deploy:
+  deploy:
     runs-on: ubuntu-latest
     needs: build
     steps:
